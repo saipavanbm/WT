@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    font-family: 'Nunito', sans-serif;
+}
+.left h2{
+    font-size: 30px;
+    font-weight: 800;
+    padding-left: 10%;
+    padding-top: 3%;
+    
+}
+.image{
+    background-image: linear-gradient(168.29deg, #CBF3F0 10.16%, white);
+}
+.middle{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    background-image: url("../img/aboutus.png");
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-size: 90vh;
+    background-position-x: 27%;
+    background-position-y: center;
+    
+
+}
+.writing{
+    width: 25%;
+}
+.con{
+    padding: 10%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    flex-direction: row;
+}
+.middle p{
+    color:white;
+    
+}
+.writing h1{
+    color: white;
+
+}
+.btn{
+    color: white;
+    background-color: #ff9f1c;
+    border-radius: 5px;
+    padding: 1%;
+}
+footer{
+    background-color:rgba(0, 109, 119, 1);
+    
+}
+#first{
+    text-align: center;
+    color: white;
+    padding-top: 2%;
+}
+footer p{
+    color: white;
+    text-align: center;
+    font-size: small;
+    
+}
+footer form{
+    text-align: center;
+}
+#text{
+    background-color: #CBF3F0;
+}
+#button{
+    background-color: #2EC4B6;
+    text-align: center;
+    font-weight: 800;
+}
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 1%;
+}
+
+.foot{
+    color: white;
+    width: 12%;
+
+}
+.social{
+ display: flex;
+ flex-direction: column;
+ 
+
+}
+.txt{
+    padding: 5%;
+}
+
+.img{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: center;
+
+
+}
+.shapes{
+    height: 50%;
+}
+.call{
+    display: flex;
+    flex-direction: row;
+    width: 10%;
+    height: 30%;
+}
+footer>p{
+    padding: 1%;
+}
+footer>form>input{
+    border: none;
+    padding: 0.5%;
+    margin: none;
+}
+footer form{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-weight: 800;
+    font-size: 15px;
+}
+.submit{
+    text-align: center;
+    color:black;
+    padding: 0.4%;
+    background-color: #2EC4B6;
+
+}
+.submit:hover{
+ cursor: pointer;   
+}
+.img:hover{
+    cursor: pointer;
+}
+@media only screen and (max-width: 900px) {
+    .con{
+        flex-direction: column;
+        background-size: auto;
+    }
+    .writing{
+        width: 88%;
+        padding-top: 35%;
+    }
+    .btn{
+        margin-top: 50%;
+    }
+    .footer{
+        flex-direction: column;
+    }
+    .foot{
+        width: 100%;
+    }
+    .foot>h2{
+        text-align: center;
+    }
+    .img{
+        padding: 1%;
+    }
+    .foot>p{
+        text-align: center;
+        padding: 2%;
+    }
+    .txt>p{
+        padding: 2%;
+    }
+    .call{
+        display: inline;
+    
+    }
+    .call img{
+        position: relative;
+        left: 45%;
+    }
+    .call p{
+        text-align: center;
+    }
+    }

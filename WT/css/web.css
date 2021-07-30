@@ -1,0 +1,26 @@
+.leftbox{
+    float:left;
+    width:50%;
+    height:100%;
+}
+.rightbox{
+    float:right;
+    width:50%;
+    height:100%;
+}
+.main {
+    resize: both;
+    overflow: auto;
+  }
+  @media only screen and (max-width: 900px) {
+  .main{
+display: flex !important;
+flex-direction: column !important;
+ }
+ .leftbox{
+     width: 100% !important;
+ }
+ .rightbox{
+     width: 100% !important;
+ }
+}

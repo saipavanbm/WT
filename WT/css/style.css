@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    font-family: 'Nunito', sans-serif;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2% 8%;
+
+}
+.background{
+    background-image: linear-gradient(168.29deg, #CBF3F0 10.16%, white);
+}
+.btn{
+    color: white;
+    background-color: #ff9f1c;
+    border-radius: 5px;
+    padding: 3%;
+}
+.image{
+    background-image: url("../img/Landing-page-rect.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 90vh;
+}
+.left p{
+    font-size: 30px;
+    font-weight: 800;
+}
+.right ul{
+    list-style: none;
+}
+.right ul li a{
+    display: inline-block;
+    color:black;
+    font-weight: 800;
+}   
+.middle{
+    position: relative;
+    top: 15%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.text{
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+.text h2{
+    padding: 2%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.text p{
+    padding: 2%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.text a {
+    margin: 2%;
+    margin-left: 10%;
+    margin-right: 10%;
+    width: fit-content;
+}
+iframe{
+    border-radius: 50px;
+}
+.videobox{
+    width: 560px;
+    height: 315px;
+}
+.body{
+    display: grid;
+    grid-column-gap: 50px;
+    grid-template-columns: auto auto auto;
+}
+.body div a{
+    margin: 5%;
+}
+.grid{
+    padding: 7%;
+    border-radius: 20px;
+    margin: 5%;
+    background-color: #CBF3F0;
+    position: relative;
+}
+.grid h2{
+    padding-bottom: 3%;
+}
+.offers_view h2{
+    padding-left: 2%;
+    font-weight: bold;
+}
+.offersview{
+    padding: 5%;
+    background-image: url("../img/blob-middle.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 100vh;
+    background-size: 88vh;
+}
+.icons{
+    height: 24%;
+    width: 12%;
+    position: absolute;
+    top:0px;
+    right: 0px;
+
+}
+footer{
+    background-color:rgba(0, 109, 119, 1);
+    
+}
+#first{
+    text-align: center;
+    color: white;
+    padding-top: 2%;
+}
+footer p{
+    color: white;
+    text-align: center;
+    font-size: small;
+    
+}
+footer form{
+    text-align: center;
+}
+#text{
+    background-color: #CBF3F0;
+}
+#button{
+    background-color: #2EC4B6;
+    text-align: center;
+    font-weight: 800;
+}
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 1%;
+}
+
+.foot{
+    color: white;
+    width: 12%;
+
+}
+.social{
+ display: flex;
+ flex-direction: column;
+ 
+
+}
+.txt{
+    padding: 5%;
+}
+
+.img{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: center;
+
+
+}
+.shapes{
+    height: 50%;
+}
+.call{
+    display: flex;
+    flex-direction: row;
+    width: 10%;
+    height: 30%;
+}
+footer>p{
+    padding: 1%;
+}
+footer>form>input{
+    border: none;
+    padding: 0.5%;
+    margin: none;
+}
+footer form{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-weight: 800;
+    font-size: 15px;
+}
+.submit{
+    text-align: center;
+    color:black;
+    padding: 0.4%;
+    background-color: #2EC4B6;
+
+}
+.submit:hover{
+ cursor: pointer;   
+}
+.img:hover{
+    cursor: pointer;
+}
+@media only screen and (max-width: 900px) {
+  .body{
+    display: grid;
+    grid-column-gap: 50px;
+    grid-template-columns: auto;
+}
+
+.videobox{
+    position: absolute;
+    top: 50%;
+    width: 80%;
+    height: 26%;
+}
+.text{
+    margin-top: 10%;
+}
+.middle{
+    position:unset;
+}
+.image{
+    height: 80vh;
+}
+.offersview{
+    background-position-y: 20vh;
+    height: fit-content;
+    background-size: 140vh;
+}
+.footer{
+    flex-direction: column;
+}
+.foot{
+    width: 100%;
+}
+.foot>h2{
+    text-align: center;
+}
+.img{
+    padding: 1%;
+}
+.foot>p{
+    text-align: center;
+    padding: 2%;
+}
+.txt>p{
+    padding: 2%;
+}
+.call{
+    display: inline;
+
+}
+.call img{
+    position: relative;
+    left: 45%;
+}
+.call p{
+    text-align: center;
+}
+}
